@@ -1,8 +1,8 @@
 class Quickserve < Formula
   desc "Quick and simple HTTP file server"
   homepage "https://github.com/pythonSnake5036/quickserve"
-  url "https://github.com/pythonSnake5036/quickserve/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "20a821fa4faecdfdf0d48e0800a6cd3262b06cbfc8efdc8407d6e17cbc4441bc"
+  url "https://github.com/pythonSnake5036/quickserve/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "4d5ae7f37b36f67a33225f5276a21a75d2bc8b2d27550e102039f18d7e8de0a9"
   license ""
 
   bottle do
