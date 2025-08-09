@@ -19,6 +19,6 @@ class Quickserve < Formula
   end
 
   test do
-    shell_output((bin/"quickserve --help").to_s)
+    shell_output("#{bin/"quickserve"} -help")
   end
 end
