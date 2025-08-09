@@ -6,10 +6,10 @@ class Quickserve < Formula
   license ""
 
   bottle do
-    root_url "https://github.com/pythonSnake5036/homebrew-tap/releases/download/quickserve-1.0.0"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "975ea49d00b0638899fab096797875e07a752e2fd061efc1a2d2bbe57f361d3e"
-    sha256 cellar: :any_skip_relocation, ventura:       "aada819ac007735eff78259e32c107b773dcf046e753cb1efdd90fc5394ab845"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "f9981380576ae0bcea6d7e19cd39a6f666fb099ff15624fdc987175a4e27706e"
+    root_url "https://github.com/pythonSnake5036/homebrew-tap/releases/download/quickserve-1.1.0"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "1b6dcbfd3ad441ce106fc593c10632150ef445e4a6cbe2a67f4b6ced9b006492"
+    sha256 cellar: :any_skip_relocation, ventura:       "03a83f0c4e4ed7ddb30dfd55ccb19eeef50d529e1fb350348c5acd0525f1e630"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "2fadad7c5f07b0ede13c8d73ed11f7186a2639388ac13b1ffb2c4fb6ee1ff112"
   end
 
   depends_on "go" => :build
